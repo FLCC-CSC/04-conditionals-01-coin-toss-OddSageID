@@ -1,8 +1,10 @@
 # FILE NAME - coin_toss.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: kevin hormaza
+# DATE: October 6, 2025
+# BRIEF DESCRIPTION: This program simulates flipping a coin. It generates a number
+# between 1 and 100. If the number is 51 or greater, it prints Tails.
+# Otherwise, it prints Heads.
 
 
 
@@ -16,7 +18,16 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 # Don't forget to import random!!!!!
+import random
 
+print("===== Coin Flipper =====")
+
+number = random.randint(1, 100)
+
+if number >= 51:
+    print("Tails")
+else:
+    print("Heads")
 
 
 
@@ -54,7 +65,7 @@ Tails
 
 1. What was the hardest part of completing this lab? 
 
-
+Remembering to import the random module before using randint().
 
 
 
